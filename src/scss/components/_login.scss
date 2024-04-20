@@ -1,0 +1,35 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  &-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.4s ease-in-out;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    svg{
+        font-size: 3rem;
+    }
+    &:hover{
+        border-radius: 3rem;
+        border-width: 10px;
+        border-top-color: red;
+        border-bottom-color: green;
+        border-left-color: yellow;
+        border-right-color: blue;
+    }
+
+  }
+}
