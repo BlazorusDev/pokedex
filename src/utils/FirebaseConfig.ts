@@ -3,7 +3,7 @@ import {getAuth} from 'firebase/auth'
 import {collection, getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDFSIVp72WgpurI_hff9u1SAk9u9wnF-ko",
+  apiKey: process.env.APIKEY,
   authDomain: "pokedex-2cdf4.firebaseapp.com",
   projectId: "pokedex-2cdf4",
   storageBucket: "pokedex-2cdf4.appspot.com",
